@@ -1,0 +1,55 @@
+:root {
+  --orange: #ec5342;
+  --black: #272a31;
+  --white: #d3d3d3;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: var(--black);
+}
+
+.navbar {
+  padding: 16px;
+}
+
+.fa-bars {
+  font-size: 2em;
+}
+
+.main-intro {
+  padding: 20px;
+}
+
+.main-intro-preheading {
+  color: var(--orange);
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.main-intro-heading {
+  color: var(--orange);
+  margin: 0 0 10px 0;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.main-intro-description {
+  text-align: justify;
+  padding: 16px;
+}
+
+.main-intro-date {
+  font-size: 1.7em;
+  font-weight: 800;
+  margin: 0;
+}
+
+.main-intro-location {
+  font-size: 1em;
+  margin: 0;
+}
