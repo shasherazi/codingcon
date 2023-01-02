@@ -1,0 +1,113 @@
+.about-intro-preheading {
+  text-align: center;
+}
+
+.about-intro-heading {
+  text-align: center;
+}
+
+.about-intro-description {
+  text-align: center;
+  padding: 16px;
+}
+
+.about-intro-description a {
+  color: var(--orange);
+}
+
+.about-past-codingcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-past-codingcons-heading {
+  margin: 0;
+}
+
+.about-past-codingcons-hr {
+  margin-bottom: 20px;
+}
+
+.about-past-codingcons-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-past-codingcons-list-codingcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 300px;
+  color: var(--white);
+  background-size: cover !important;
+  margin-bottom: 50px;
+}
+
+.year,
+.place {
+  margin: 0;
+  font-size: 1.7em;
+}
+
+#year2022 {
+  background: linear-gradient(to right, #ec5342, #fff0), url(../assets/images/oldCodingCons/ndc2022.webp);
+}
+
+#year2021 {
+  background: linear-gradient(to right, #ec5342, #fff0), url(../assets/images/oldCodingCons/ndc2021.webp);
+}
+
+#year2020 {
+  background: linear-gradient(to right, #ec5342, #fff0), url(../assets/images/oldCodingCons/ndc2020.webp);
+}
+
+.about-partners {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px;
+}
+
+.about-partners-heading {
+  text-align: center;
+}
+
+.about-partners-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-partners-list img {
+  padding: 14px;
+  width: fit-content;
+  height: 36px;
+  object-fit: contain;
+}
+
+.about-attribution {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-attribution img {
+  width: 50%;
+}
+
+.about-attribution-text {
+  font-size: 1.5em;
+}
+
+.about-attribution a {
+  color: var(--orange);
+  text-decoration: none;
+  font-weight: 600;
+}
