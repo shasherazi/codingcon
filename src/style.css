@@ -12,8 +12,29 @@ html {
   color: var(--black);
 }
 
-.navbar {
+.nav {
   padding: 16px;
+}
+
+.nav-popup {
+  display: none;
+  height: 100vh;
+}
+
+.nav-popup-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-popup-list-link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav-popup-list-item {
+  font-size: 3em;
+  line-height: 69px;
 }
 
 .fa-bars {
