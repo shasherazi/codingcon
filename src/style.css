@@ -51,5 +51,60 @@ html {
 
 .main-intro-location {
   font-size: 1em;
-  margin: 0;
+  margin: 0 0 40px 0;
+}
+
+.main-main-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+  padding: 20px;
+  background-color: var(--black);
+}
+
+.main-main-program-hr {
+  border: 1px solid var(--orange);
+  width: 50px;
+}
+
+.main-main-program-programs-program {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff1;
+  margin: 20px 0;
+}
+
+.main-main-program-programs-program i {
+  font-size: 2em;
+  flex: 1;
+  margin-right: 3%;
+}
+
+.main-main-program-programs-program-heading {
+  font-size: 1.5em;
+  flex: 1;
+  margin: 0 5% 0 0;
+  color: var(--orange);
+}
+
+.main-main-program-programs-program-description {
+  flex: 5;
+}
+
+.main-main-program-button {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  padding: 30px;
+  font-size: 1.5em;
+  margin: 20px 0;
+  width: 80%;
+}
+
+.main-main-program-button:hover {
+  background-color: var(--black);
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
