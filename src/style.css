@@ -274,6 +274,7 @@ html {
 
   .about-partners-heading {
     text-align: center;
+    margin-top: 0;
   }
 
   .about-partners-list {
@@ -281,7 +282,7 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 50px;
+    padding: 30px 50px;
   }
 
   .about-partners-list img {
@@ -289,5 +290,27 @@ html {
     width: fit-content;
     height: 36px;
     object-fit: contain;
+  }
+
+  .about-attribution {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .about-attribution img {
+    width: 50%;
+    max-width: 200px;
+  }
+
+  .about-attribution-text {
+    font-size: 1.5em;
+  }
+
+  .about-attribution a {
+    color: var(--orange);
+    text-decoration: none;
   }
 }
