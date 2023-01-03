@@ -26,8 +26,8 @@
   <body>
     <header class="header-section">
       <nav class="navbar nav">
-        <i class="fa-sharp fa-solid fa-bars"></i>
-        <section class="nav-popup">
+        <i class="fa-sharp fa-solid fa-bars mobile-only"></i>
+        <section class="nav-popup mobile-only">
           <ul class="nav-popup-list">
             <a href="#" class="nav-popup-list-link">
               <li class="nav-popup-list-item">> Home</li>
@@ -47,6 +47,38 @@
             <a href="#" class="nav-popup-list-link">
               <li class="nav-popup-list-item">> News</li>
             </a>
+          </ul>
+        </section>
+        <section class="nav-desktop desktop-only">
+          <ul class="nav-links-list">
+            <div class="nav-links-list-logo">
+              <a href="#" class="nav-links-list-logo-link">
+                <li class="nav-links-list-item">
+                  <img
+                    src="./src/assets/images/codingConLogo.png"
+                    alt="codingCon logo"
+                    class="nav-links-list-logo"
+                  />
+                </li>
+              </a>
+            </div>
+            <div class="nav-links-list">
+              <a href="./src/pages/about.html" class="nav-links-list-link">
+                <li class="nav-links-list-item">About</li>
+              </a>
+              <a href="#" class="nav-links-list-link">
+                <li class="nav-links-list-item">Program</li>
+              </a>
+              <a href="#" class="nav-links-list-link">
+                <li class="nav-links-list-item">Join</li>
+              </a>
+              <a href="#" class="nav-links-list-link">
+                <li class="nav-links-list-item">Sponsor</li>
+              </a>
+              <a href="#" class="nav-links-list-link">
+                <li class="nav-links-list-item">News</li>
+              </a>
+            </div>
           </ul>
         </section>
       </nav>
@@ -113,7 +145,11 @@
           </div>
         </article>
 
-        <button class="main-main-program-button btn">
+        <a href="#" class="main-main-program-more-link desktop-only">
+          <p class="main-main-program-more-link-text">SEE THE WHOLE PROGRAM</p>
+        </a>
+
+        <button class="main-main-program-button btn mobile-only">
           Join CodingCon 2023
         </button>
       </section>
@@ -121,6 +157,42 @@
       <section class="main-featured-speakers">
         <h2 class="main-featured-speakers-heading">Features Speakers</h2>
         <hr class="main-featured-speakers-hr hr-orange" />
+        <article class="main-featured-speakers-speakers"></article>
+      </section>
+
+      <section class="about-partners desktop-only">
+        <h2 class="about-partners-heading">Partner</h2>
+        <hr class="about-partners-hr hr-orange" />
+
+        <article class="about-partners-list">
+          <img
+            src="./src/assets/images/partners/airbnb.png"
+            alt="airbnb logo"
+          />
+          <img
+            src="./src/assets/images/partners/google.png"
+            alt="google logo"
+          />
+          <img src="./src/assets/images/partners/meta.png" alt="meta logo" />
+          <img
+            src="./src/assets/images/partners/microsoft.png"
+            alt="microsoft logo"
+          />
+          <img
+            src="./src/assets/images/partners/mozilla.webp"
+            alt="mozilla logo"
+          />
+        </article>
+      </section>
+
+      <section class="about-attribution desktop-only">
+        <img
+          src="./src/assets/images/cc-logo.png"
+          alt="creative commons logo"
+        />
+        <p class="about-attribution-text">
+          Design by <a href="https://www.behance.net/adagio07">Cindy Shin</a>
+        </p>
       </section>
     </main>
   </body>

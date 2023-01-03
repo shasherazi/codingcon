@@ -100,6 +100,7 @@
 
 .about-attribution img {
   width: 50%;
+  max-width: 200px;
 }
 
 .about-attribution-text {
@@ -109,5 +110,4 @@
 .about-attribution a {
   color: var(--orange);
   text-decoration: none;
-  font-weight: 600;
 }

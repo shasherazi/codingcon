@@ -1,4 +1,4 @@
-const mainFeaturedSpeakers = document.querySelector('.main-featured-speakers');
+const mainFeaturedSpeakers = document.querySelector('.main-featured-speakers-speakers');
 
 const featuredSpeakers = [
   {
