@@ -265,4 +265,29 @@ html {
   .main-featured-speakers-speaker {
     margin-bottom: 0;
   }
+
+  .about-partners {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px;
+  }
+
+  .about-partners-heading {
+    text-align: center;
+  }
+
+  .about-partners-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+  }
+
+  .about-partners-list img {
+    padding: 14px;
+    width: fit-content;
+    height: 36px;
+    object-fit: contain;
+  }
 }
