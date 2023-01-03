@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1000px;
 }
 
 .about-past-codingcons-list-codingcon {
@@ -110,4 +111,82 @@
 .about-attribution a {
   color: var(--orange);
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  .nav {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 36px;
+  }
+
+  .nav-links-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links-list-link {
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .nav-links-list-link:hover {
+    color: var(--orange);
+  }
+
+  .nav-links-list-item {
+    padding: 0 16px;
+  }
+
+  .nav-links-list-logo {
+    width: 100px;
+  }
+
+  .about-intro-description {
+    padding: 16px 20%;
+  }
+
+  .about-codingcon-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20%;
+    margin-bottom: 50px;
+  }
+
+  .about-codingcon-logo-heading {
+    margin: 0;
+  }
+
+  .about-codingcon-logo-img {
+    width: 200px;
+  }
+
+  .about-past-codingcons-list {
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .about-past-codingcons-list-codingcon {
+    margin: 0 10px 100px 5px;
+  }
+
+  .about-attribution {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 70px 0;
+  }
 }
