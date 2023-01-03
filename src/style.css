@@ -12,6 +12,10 @@ html {
   color: var(--black);
 }
 
+.desktop-only {
+  display: none;
+}
+
 .nav {
   padding: 16px;
 }
@@ -93,12 +97,17 @@ html {
   width: 50px;
 }
 
+.main-main-program-programs {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-main-program-programs-program {
   display: flex;
   align-items: center;
   padding: 20px;
   background-color: #fff1;
-  margin: 20px 0;
+  margin: 10px;
 }
 
 .main-main-program-programs-program i {
@@ -141,6 +150,14 @@ html {
   padding: 20px;
 }
 
+.main-featured-speakers-heading {
+  margin: 0;
+}
+
+.main-featured-speakers-hr {
+  margin-bottom: 50px;
+}
+
 .main-featured-speakers-speaker {
   display: flex;
   margin-bottom: 20px;
@@ -177,4 +194,75 @@ html {
 .main-featured-speakers-speaker-title {
   color: var(--orange);
   margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  .nav {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 36px;
+  }
+
+  .nav-links-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links-list-item {
+    padding: 0 16px;
+  }
+
+  .nav-links-list-logo {
+    width: 100px;
+  }
+
+  .main-intro-location {
+    margin: 0 0 80px 0;
+  }
+
+  .main-main-program-programs {
+    flex-direction: row;
+  }
+
+  .main-main-program-programs-program {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-main-program-programs-program-heading {
+    margin-top: 10px;
+  }
+
+  .main-main-program-more-link {
+    color: var(--white);
+  }
+
+  .main-main-program-more-link-text {
+    margin: 50px 0;
+  }
+
+  .main-featured-speakers {
+    padding: 50px 7%;
+  }
+
+  .main-featured-speakers-speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .main-featured-speakers-speaker {
+    margin-bottom: 0;
+  }
 }

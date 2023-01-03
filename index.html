@@ -26,8 +26,8 @@
   <body>
     <header class="header-section">
       <nav class="navbar nav">
-        <i class="fa-sharp fa-solid fa-bars"></i>
-        <section class="nav-popup">
+        <i class="fa-sharp fa-solid fa-bars mobile-only"></i>
+        <section class="nav-popup mobile-only">
           <ul class="nav-popup-list">
             <a href="#" class="nav-popup-list-link">
               <li class="nav-popup-list-item">> Home</li>
@@ -47,6 +47,28 @@
             <a href="#" class="nav-popup-list-link">
               <li class="nav-popup-list-item">> News</li>
             </a>
+          </ul>
+        </section>
+        <section class="nav-desktop desktop-only">
+          <ul class="nav-links-list">
+            <div class="nav-links-list-logo">
+              <a href="#" class="nav-links-list-logo-link">
+                <li class="nav-links-list-item">
+                  <img
+                    src="./src/assets/images/codingConLogo.png"
+                    alt="codingCon logo"
+                    class="nav-links-list-logo"
+                  />
+                </li>
+              </a>
+            </div>
+            <div class="nav-links-list">
+              <li class="nav-links-list-item">About</li>
+              <li class="nav-links-list-item">Program</li>
+              <li class="nav-links-list-item">Join</li>
+              <li class="nav-links-list-item">Sponsor</li>
+              <li class="nav-links-list-item">News</li>
+            </div>
           </ul>
         </section>
       </nav>
@@ -113,7 +135,11 @@
           </div>
         </article>
 
-        <button class="main-main-program-button btn">
+        <a href="#" class="main-main-program-more-link desktop-only">
+          <p class="main-main-program-more-link-text">SEE THE WHOLE PROGRAM</p>
+        </a>
+
+        <button class="main-main-program-button btn mobile-only">
           Join CodingCon 2023
         </button>
       </section>
@@ -121,6 +147,7 @@
       <section class="main-featured-speakers">
         <h2 class="main-featured-speakers-heading">Features Speakers</h2>
         <hr class="main-featured-speakers-hr hr-orange" />
+        <article class="main-featured-speakers-speakers"></article>
       </section>
     </main>
   </body>
