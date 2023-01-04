@@ -26,14 +26,14 @@
   <body>
     <header class="header-section">
       <nav class="navbar nav">
-        <i class="fa-sharp fa-solid fa-bars mobile-only"></i>
+        <i class="menu-icon fa-solid fa-bars mobile-only"></i>
         <section class="nav-popup mobile-only">
           <ul class="nav-popup-list">
             <a href="../../index.html" class="nav-popup-list-link">
               <li class="nav-popup-list-item">> Home</li>
             </a>
             <a href="#" class="nav-popup-list-link">
-              <li class="nav-popup-list-item">> About</li>
+              <li class="nav-popup-list-item active-page">> About</li>
             </a>
             <a href="#" class="nav-popup-list-link">
               <li class="nav-popup-list-item">> Program</li>
@@ -64,7 +64,7 @@
             </div>
             <div class="nav-links-list">
               <a href="#" class="nav-links-list-link">
-                <li class="nav-links-list-item">About</li>
+                <li class="nav-links-list-item active-page">About</li>
               </a>
               <a href="#" class="nav-links-list-link">
                 <li class="nav-links-list-item">Program</li>
@@ -140,19 +140,54 @@
       <section class="about-partners mobile-only">
         <h2 class="about-partners-heading">Partner</h2>
         <hr class="about-partners-hr hr-orange" />
-
         <article class="about-partners-list">
-          <img src="../assets/images/partners/airbnb.png" alt="airbnb logo" />
-          <img src="../assets/images/partners/google.png" alt="google logo" />
-          <img src="../assets/images/partners/meta.png" alt="meta logo" />
-          <img
-            src="../assets/images/partners/microsoft.png"
-            alt="microsoft logo"
-          />
-          <img
-            src="../assets/images/partners/mozilla.webp"
-            alt="mozilla logo"
-          />
+          <a
+            href="https://www.airbnb.com"
+            target="_blank"
+            class="about-partners-list-link"
+          >
+            <img
+              src="../assets/images/partners/airbnb.png"
+              alt="airbnb logo"
+            />
+          </a>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            class="about-partners-list-link"
+          >
+            <img
+              src="../assets/images/partners/google.png"
+              alt="google logo"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/Meta"
+            target="_blank"
+            class="about-partners-list-link"
+          >
+            <img src="../assets/images/partners/meta.png" alt="meta logo" />
+          </a>
+          <a
+            href="https://www.microsoft.com"
+            target="_blank"
+            class="about-partners-list-link"
+          >
+            <img
+              src="../assets/images/partners/microsoft.png"
+              alt="microsoft logo"
+            />
+          </a>
+          <a
+            href="https://www.mozilla.org"
+            target="_blank"
+            class="about-partners-list-link"
+          >
+            <img
+              src="../assets/images/partners/mozilla.webp"
+              alt="mozilla logo"
+            />
+          </a>
         </article>
       </section>
 
@@ -167,9 +202,20 @@
           src="../assets/images/cc-logo-white.png"
           alt="creative commons logo"
         />
-        <p class="about-attribution-text">
-          Design by <a href="https://www.behance.net/adagio07">Cindy Shin</a>
-        </p>
+        <div class="about-attribution-text-div">
+          <p class="about-attribution-text">
+            Design by
+            <a href="https://www.behance.net/adagio07" target="_blank"
+              >Cindy Shin</a
+            >
+          </p>
+          <p class="about-attribution-text">
+            Developed by
+            <a href="https://github.com/shasherazi" target="_blank"
+              >shasherazi</a
+            >
+          </p>
+        </div>
       </section>
     </main>
   </body>
