@@ -16,6 +16,10 @@ html {
   display: none;
 }
 
+.active-page {
+  color: var(--orange);
+}
+
 .nav {
   padding: 16px;
 }
@@ -47,6 +51,8 @@ html {
 
 .main-intro {
   padding: 20px;
+  background-image: url(./assets/images/backgrounds/homeMainBg.png);
+  background-size: cover;
 }
 
 .main-intro-preheading {
@@ -86,6 +92,8 @@ html {
   color: var(--white);
   padding: 20px;
   background-color: var(--black);
+  background-image: url(./assets/images/backgrounds/mainProgramBg.png);
+  background-size: contain;
 }
 
 .main-main-program-heading {
