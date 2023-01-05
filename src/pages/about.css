@@ -1,0 +1,194 @@
+.about-intro-preheading {
+  text-align: center;
+}
+
+.about-intro-heading {
+  text-align: center;
+}
+
+.about-intro-description {
+  text-align: center;
+  padding: 16px;
+}
+
+.about-intro-description a {
+  color: var(--orange);
+}
+
+.about-codingcon-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20%;
+  margin-bottom: 50px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.about-codingcon-logo-heading {
+  margin: 0;
+}
+
+.about-codingcon-logo-img {
+  width: 200px;
+}
+
+.about-past-codingcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-past-codingcons-heading {
+  margin: 0;
+}
+
+.about-past-codingcons-hr {
+  margin-bottom: 20px;
+}
+
+.about-past-codingcons-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.about-past-codingcons-list-codingcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 300px;
+  color: var(--white);
+  background-size: cover !important;
+  margin-bottom: 50px;
+}
+
+.year,
+.place {
+  margin: 0;
+  font-size: 1.7em;
+}
+
+#year2022 {
+  background: linear-gradient(to right, #ec5342, #fff0), url(../assets/images/oldCodingCons/ndc2022.webp);
+}
+
+#year2021 {
+  background: linear-gradient(to right, #ec5342, #fff0), url(../assets/images/oldCodingCons/ndc2021.webp);
+}
+
+#year2020 {
+  background: linear-gradient(to right, #ec5342, #fff0), url(../assets/images/oldCodingCons/ndc2020.webp);
+}
+
+.about-partners {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px;
+}
+
+.about-partners-heading {
+  text-align: center;
+}
+
+.about-partners-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-partners-list img {
+  padding: 14px;
+  width: fit-content;
+  height: 36px;
+  object-fit: contain;
+}
+
+.about-attribution {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-attribution img {
+  width: 50%;
+  max-width: 200px;
+}
+
+.about-attribution-text {
+  font-size: 1.5em;
+}
+
+.about-attribution a {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  .nav {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 36px;
+  }
+
+  .nav-links-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links-list-link {
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .nav-links-list-link:hover {
+    color: var(--orange);
+  }
+
+  .nav-links-list-item {
+    padding: 0 16px;
+  }
+
+  .nav-links-list-logo {
+    width: 100px;
+  }
+
+  .about-intro-description {
+    padding: 16px 20%;
+  }
+
+  .about-past-codingcons-list {
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .about-past-codingcons-list-codingcon {
+    margin: 0 10px 100px 5px;
+  }
+
+  .about-attribution {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 70px 0;
+  }
+}
