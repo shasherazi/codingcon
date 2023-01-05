@@ -20,8 +20,27 @@ html {
   color: var(--orange);
 }
 
-.nav {
-  padding: 16px;
+.first-nav {
+    background-color: var(--black);
+}
+
+.first-nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 0 40px 0 0;
+    margin: 0;
+}
+
+
+.first-nav-list-link{
+    text-decoration: none;
+    color: var(--white);
+    padding: 10px;
+}
+
+.nav-desktop {
+    padding: 16px;
 }
 
 .nav-popup {
