@@ -15,6 +15,25 @@
   color: var(--orange);
 }
 
+.about-codingcon-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20%;
+  margin-bottom: 50px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.about-codingcon-logo-heading {
+  margin: 0;
+}
+
+.about-codingcon-logo-img {
+  width: 200px;
+}
+
 .about-past-codingcons {
   display: flex;
   flex-direction: column;
@@ -155,23 +174,6 @@
 
   .about-intro-description {
     padding: 16px 20%;
-  }
-
-  .about-codingcon-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 50px 20%;
-    margin-bottom: 50px;
-  }
-
-  .about-codingcon-logo-heading {
-    margin: 0;
-  }
-
-  .about-codingcon-logo-img {
-    width: 200px;
   }
 
   .about-past-codingcons-list {

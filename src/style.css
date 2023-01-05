@@ -21,26 +21,25 @@ html {
 }
 
 .first-nav {
-    background-color: var(--black);
+  background-color: var(--black);
 }
 
 .first-nav-list {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    padding: 0 40px 0 0;
-    margin: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 0 40px 0 0;
+  margin: 0;
 }
 
-
-.first-nav-list-link{
-    text-decoration: none;
-    color: var(--white);
-    padding: 10px;
+.first-nav-list-link {
+  text-decoration: none;
+  color: var(--white);
+  padding: 10px;
 }
 
 .nav-desktop {
-    padding: 16px;
+  padding: 16px;
 }
 
 .nav-popup {
@@ -66,6 +65,7 @@ html {
 
 .menu-icon {
   font-size: 2em;
+  padding: 16px;
 }
 
 .main-intro {
